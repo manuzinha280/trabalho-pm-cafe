@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafeteria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Premium - O melhor café direto do campo para sua casa.">
+  <title>Café Premium</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Olá mundo do café</p>
+  <header>
+    <div class="logo">
+      <h1>Café Premium</h1>
+      <p>O melhor café direto do campo para sua casa.</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="produtos" class="section">
+      <h2>Nosso Café</h2>
+      <div class="produtos-container">
+        <div class="produto">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPx3PDFmkX7DO3B_YetwgQyXVt9T9Z1I4VdQ&s" alt="Café Premium">
+          <h3>Café Espresso</h3>
+          <p>Para quem ama o sabor intenso do café.</p>
+          <button class="comprar">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="https://entrecafeseviagens.com/wp-content/uploads/2019/01/grao-ou-moido-cafe-especial-o-cacador-de-cafe-1.jpg" alt="Café Premium">
+          <h3>Café Moído</h3>
+          <p>Aromático e encorpado, ideal para qualquer momento.</p>
+          <button class="comprar">Comprar</button>
+        </div>
+        <div class="produto">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR95oc4YbLKY7z-KcGODXfuBLqeFGCFT8ll0w&s" alt="Café Premium">
+          <h3>Café Orgânico</h3>
+          <p>Produzido sem agrotóxicos, perfeito para quem busca qualidade e saúde.</p>
+          <button class="comprar">Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma empresa que preza pela qualidade e pelo sabor inconfundível do café. Cultivamos nossos grãos de maneira sustentável e com muito carinho, garantindo a melhor experiência para nossos clientes.</p>
+    </section>
+
+    <section id="contato" class="section">
+      <h2>Contato</h2>
+      <p>Se você tiver alguma dúvida ou gostaria de saber mais sobre nossos produtos, entre em contato conosco!</p>
+      <form action="#">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Café Premium - Todos os direitos reservados a Emmanuella.</p>
+  </footer>
 </body>
 </html>
